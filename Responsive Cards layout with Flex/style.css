@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins",sans-serif;
+}
+.training-section {
+    padding-bottom: 50px;
+}
+.training-section h1 {
+    text-align: center;
+    padding: 25px 0;
+}
+.container {
+    width: 1170px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.training-items {
+    flex-basis: 23%; 
+    margin: 10px 0;
+    box-shadow: 0 0 10px 3px lightgray;
+    background: white;
+    text-align: center;
+    padding: 20px 0;
+} 
+.training-items h3 {
+    padding: 10px 0;
+}
+.training-items p {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.training-items button {
+    background-color: blue;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.training-items:hover {
+    background-color: blue;
+    /* transition: 1s; */
+}
+.training-items:hover h3,.training-items:hover p {
+    color: white;
+}
+.training-items:hover button {
+    background: white;
+    color: blue;
+}
+
+@media only screen and (max-width:767px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+    }
+    .training-items {
+        margin:10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .training-items {
+        flex-basis: 48%;
+        margin: 10px;
+    }
+    .training-section h1 {
+        margin-left: 250px
+    }
+}

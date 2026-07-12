@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="16x16" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="payment form.css">
+      
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="main_heading">Payment Form </h1>
+        <hr>
+        <h2>Contact Information</h2>
+        <p>Name: *<input type="text" name="name" required placeholder="Enter your name"></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>Male<input type="radio" name="gender" id="male">
+                Female<input type="radio" name="gender" id="female"></p>
+        </fieldset>
+        <p>Address:*<textarea name="adresss" id="adresss" cols="30" rows="10" required placeholder="Enter your Adrress"></textarea></p>
+        <p>Email:*<input type="email" name="email" id="email" required placeholder="Enter your Email"></p>
+        <p>Pincode:*<input type="number" name="pincode" id="pincode" required placeholder="000000"></p>
+        <h2>Payment Information</h2>
+        <p>Card Type:*
+            <select name="card_type" id="card_type" required> 
+                <option value="">--Select a Card type--</option>
+                <option value="jazzcash">Jazz cash</option>
+                <option value="easypaisa">Easy paisa</option>
+                <option value="unitedbank">United bank</option>
+            </select>
+        </p>
+        <p>Card number:*<input type="number" name="card_number" id="card_number" required>
+        <p>
+           Expiration Date:*<input type="date" name="expiration_date" id="expiration_date" required>
+        </p>
+         <p>
+            CVV:* <input type="password" name="cvv" id="cvv" required>
+         </p>
+         <p>
+             <input type="submit" value="Pay now">
+         </p>
+    </form>
+</div>
+</body>
+</html>

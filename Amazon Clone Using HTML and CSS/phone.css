@@ -1,0 +1,70 @@
+@media screen and (min-width:1024px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    body {
+        background-color: blue;
+    }
+    
+    .logo {
+        width: 80px;
+    }
+    .add-first{
+        font-size: 10px;
+    }
+    .add-sec{
+        font-size: 13px;
+    }
+    .nav-address{
+        margin-left: -10px;
+    }
+    .nav-search{
+        width: 270px;
+        height: 30px;
+    }
+    .nav-first{
+        font-size: 10px;
+    }
+    .nav-second{
+        font-size: 13px;
+    }
+    .nav-cart{
+        font-size: 13px;
+    }
+    .hero-msg{
+        font-size: 10px;
+    }
+    .panel-all{
+        display: flex;
+    }
+    .panel-all p {
+        font-size: 10px;
+        padding: 0 10px;
+
+    }
+    .panel-deals{
+        font-size: 10px;
+    }
+    .box{
+        width: 48vw;
+    }
+}
+@media screen and (max-width:767px) {
+    .navbar{
+        height: 300px;
+        flex-direction: column;
+    }
+    .first{
+        /* display: inline-block; */
+        border: 2px solid white;
+    }
+    .box{
+        width: 98%;
+        margin: 10px auto;
+        overflow: hidden;
+    }
+
+}

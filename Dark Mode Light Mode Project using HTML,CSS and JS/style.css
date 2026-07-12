@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.container1{
+    padding-inline: 80px;
+}
+.btn button{
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    margin-block: 20px;
+    border: 1px solid black;
+}
+.btn {
+    text-align: center;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    color: black;
+    background-color: white;
+}
